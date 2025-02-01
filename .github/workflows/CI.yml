@@ -34,11 +34,11 @@ jobs:
         # 指定需要测试的 Python 版本
         python:
           - 3.8
-          # - 3.9
-          # - 3.10
-          # - 3.11
-          # - 3.12
-          # - 3.13
+          - 3.9
+          - 3.10
+          - 3.11
+          - 3.12
+          - 3.13
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -72,11 +72,11 @@ jobs:
             target: armv7
         python:
           - 3.8
-          # - 3.9
-          # - 3.10
-          # - 3.11
-          # - 3.12
-          # - 3.13
+          - 3.9
+          - 3.10
+          - 3.11
+          - 3.12
+          - 3.13
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -106,11 +106,11 @@ jobs:
             target: x86
         python:
           - 3.8
-          # - 3.9
-          # - 3.10
-          # - 3.11
-          # - 3.12
-          # - 3.13
+          - 3.9
+          - 3.10
+          - 3.11
+          - 3.12
+          - 3.13
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -140,11 +140,11 @@ jobs:
             target: aarch64
         python:
           - 3.8
-          # - 3.9
-          # - 3.10
-          # - 3.11
-          # - 3.12
-          # - 3.13
+          - 3.9
+          - 3.10
+          - 3.11
+          - 3.12
+          - 3.13
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
