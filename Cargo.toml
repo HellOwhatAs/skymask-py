@@ -11,7 +11,7 @@ crate-type = ["cdylib"]
 [dependencies]
 pyo3 = { version = "0.23.3", features = ["extension-module"] }
 numpy = "0.23"
-skymask-rs = { git = "https://github.com/HellOwhatAs/Skymask-rs.git", rev = "9c8e97eb2d739d19249780e5025fc4387f912a50" }
+skymask-rs = "0.1.1"
 kdtree = "0.7.0"
 ordered-float = "4.6.0"
 rangemap = "1.5.1"

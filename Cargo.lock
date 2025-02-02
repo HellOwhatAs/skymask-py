@@ -380,8 +380,9 @@ dependencies = [
 
 [[package]]
 name = "skymask-rs"
-version = "0.1.0"
-source = "git+https://github.com/HellOwhatAs/Skymask-rs.git?rev=9c8e97eb2d739d19249780e5025fc4387f912a50#9c8e97eb2d739d19249780e5025fc4387f912a50"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "068db9a13f46c98759a47da8522e5b2db7cfccff0aadf372e5bf401e2cbd6c6f"
 dependencies = [
  "kdtree",
  "ndarray",
