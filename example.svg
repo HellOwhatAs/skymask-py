@@ -26,15 +26,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
      showgrid="false"
-     inkscape:zoom="2.0486111"
-     inkscape:cx="267.49831"
-     inkscape:cy="209.89831"
+     inkscape:zoom="4.0972222"
+     inkscape:cx="208.92204"
+     inkscape:cy="142.53559"
      inkscape:window-width="2560"
      inkscape:window-height="1506"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="axes_1" />
+     inkscape:current-layer="line2d_3" />
   <metadata
      id="metadata2">
     <rdf:RDF>
@@ -71,7 +71,8 @@
     <g
        id="matplotlib.axis_1">
       <g
-         id="line2d_1">
+         id="line2d_1"
+         style="opacity:0.6">
         <path
            d="M 236.16,174.528 H 369.216"
            clip-path="url(#p47138d9806)"
@@ -109,7 +110,8 @@
         </g>
       </g>
       <g
-         id="line2d_2">
+         id="line2d_2"
+         style="opacity:0.6">
         <path
            d="M 236.16,174.528 330.2448,80.4432"
            clip-path="url(#p47138d9806)"
@@ -156,7 +158,7 @@
         <path
            d="M 236.16,174.528 V 41.472"
            clip-path="url(#p47138d9806)"
-           style="fill:none;stroke:#b0b0b0;stroke-width:0.8;stroke-linecap:square"
+           style="fill:none;stroke:#b0b0b0;stroke-width:0.8;stroke-linecap:square;opacity:0.6"
            id="path49" />
       </g>
       <g
@@ -191,7 +193,8 @@
         </g>
       </g>
       <g
-         id="line2d_4">
+         id="line2d_4"
+         style="opacity:0.6">
         <path
            d="M 236.16,174.528 142.0752,80.4432"
            clip-path="url(#p47138d9806)"
@@ -239,7 +242,8 @@
         </g>
       </g>
       <g
-         id="line2d_5">
+         id="line2d_5"
+         style="opacity:0.6">
         <path
            d="M 236.16,174.528 H 103.104"
            clip-path="url(#p47138d9806)"
@@ -283,7 +287,8 @@
         </g>
       </g>
       <g
-         id="line2d_6">
+         id="line2d_6"
+         style="opacity:0.6">
         <path
            d="m 236.16,174.528 -94.0848,94.0848"
            clip-path="url(#p47138d9806)"
@@ -327,7 +332,8 @@
         </g>
       </g>
       <g
-         id="line2d_7">
+         id="line2d_7"
+         style="opacity:0.6">
         <path
            d="M 236.16,174.528 V 307.584"
            clip-path="url(#p47138d9806)"
@@ -371,7 +377,8 @@
         </g>
       </g>
       <g
-         id="line2d_8">
+         id="line2d_8"
+         style="opacity:0.6">
         <path
            d="m 236.16,174.528 94.0848,94.0848"
            clip-path="url(#p47138d9806)"
@@ -409,7 +416,8 @@
       </g>
     </g>
     <g
-       id="matplotlib.axis_2">
+       id="matplotlib.axis_2"
+       style="opacity:0.6">
       <g
          id="ytick_1">
         <g
