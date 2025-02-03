@@ -1,5 +1,6 @@
 # skymask-py
-Compute piecewise analytical solutions of skymask for given polyhedra.
+Compute piecewise analytical solutions of skymask for given polyhedra.  
+Provides efficient algorithms, parallel computing, and sampling methods.  
 > Python binding of rust crate [skymask-rs](https://github.com/HellOwhatAs/Skymask-rs/).
 
 ## Benchmark
@@ -13,7 +14,7 @@ The benchmark code is available at [benchmark.py](https://github.com/HellOwhatAs
 |[Naive approach](https://github.com/HellOwhatAs/Skymask/blob/main/skymask.py) with Cupy|63.40|$O(m \cdot n)$|
 |[Naive approach](https://github.com/HellOwhatAs/Skymask/blob/main/skymask.py) with Numpy|5.44|$O(m \cdot n)$|
 
-> Where $n$ represents the number of line segments, and $k$ denotes the average number of segments each line overlaps with in the analytical result.  
+> Where $n$ represents the number of line segments, and $k$ denotes the average number of segments each line overlaps with in the analytical result.
 > $r$ denotes the number of segments in the analytical result, and $m$ refers to the number of discrete sample points taken from the skymask.  
 
 ## Install
@@ -54,11 +55,11 @@ plt.show()
 <summary>Outputs</summary>
 
 ```
-arctan(-1.0*cos(t) + -0.0*sin(t)) if t in [-3.141592653589793, -2.356194490192345) 
-arctan(-0.0*cos(t) + -1.0*sin(t)) if t in [-2.356194490192345, -0.7853981633974483)
-arctan(1.0*cos(t) + -0.0*sin(t)) if t in [-0.7853981633974483, 0.7853981633974483) 
-arctan(-0.0*cos(t) + 1.0*sin(t)) if t in [0.7853981633974483, 2.356194490192345)   
-arctan(-1.0*cos(t) + -0.0*sin(t)) if t in [2.356194490192345, 3.141592653589793)   
+pi/2-atan(-1.0*cos(t) + -0.0*sin(t)) if t in [-3.141592653589793, -2.356194490192345)
+pi/2-atan(-0.0*cos(t) + -1.0*sin(t)) if t in [-2.356194490192345, -0.7853981633974483)
+pi/2-atan(1.0*cos(t) + -0.0*sin(t)) if t in [-0.7853981633974483, 0.7853981633974483)
+pi/2-atan(-0.0*cos(t) + 1.0*sin(t)) if t in [0.7853981633974483, 2.356194490192345) 
+pi/2-atan(-1.0*cos(t) + -0.0*sin(t)) if t in [2.356194490192345, 3.141592653589793) 
 ```
 
 ![](./example.svg)

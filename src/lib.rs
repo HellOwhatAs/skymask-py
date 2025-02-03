@@ -77,6 +77,9 @@ impl World {
             });
         SkymaskMap(skymask_rs::skymask(lines_iter, F(self.eps)))
     }
+    fn par_skymask(&self, pos: Vec<[f64; 2]>) -> Vec<SkymaskMap> {
+        pos.into_par_iter().map(|pos| self.skymask(pos)).collect()
+    }
     fn par_samples<'py>(
         &self,
         py: Python<'py>,
