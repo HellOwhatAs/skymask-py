@@ -5,9 +5,10 @@
     <img src="https://github.com/user-attachments/assets/c3aa06ec-6e9b-4468-bd60-18f1b68af931" width="40%"/>
 </p>
 <p align="center">
+    <a href="https://pypi.org/project/skymask-py/"><img src="https://img.shields.io/pypi/v/skymask-py"/></a>
     <a href="https://crates.io/crates/skymask-rs"><img src="https://img.shields.io/crates/v/skymask-rs" alt="crates.io"></a>
     <a href="https://docs.rs/skymask-rs/"><img src="https://docs.rs/skymask-rs/badge.svg" alt="docs"></a>
-    <a href="https://github.com/HellOwhatAs/skymask-py/"><img src="https://img.shields.io/github/repo-size/HellOwhatAs/skymask-py" alt="repo"></a>
+    <a href="https://github.com/HellOwhatAs/skymask-py/"><img src="https://img.shields.io/github/languages/top/HellOwhatAs/skymask-py"></a>
 </p>
 
 Compute piecewise analytical solutions of skymask for given polyhedra.  
@@ -29,7 +30,10 @@ The benchmark code is available at [benchmark.py](https://github.com/HellOwhatAs
 > $r$ denotes the number of segments in the analytical result, and $m$ refers to the number of discrete sample points taken from the skymask.  
 
 ## Install
-Precompiled wheels at https://github.com/HellOwhatAs/skymask-py/releases.
+```
+pip install skymask-py
+```
+Precompiled wheels **also** at https://github.com/HellOwhatAs/skymask-py/releases.
 
 ## Example
 ```py
@@ -85,6 +89,6 @@ pi/2-atan(-0.6666666666666666*cos(t) + -0.0*sin(t)) if t in [2.5535900500422257,
 ```
 
 <p align="center">
-<img src="./assets/Figure_1.svg" width="45%"/> <img src="./assets/Figure_2.svg" width="45%"/>
+<img src="https://github.com/user-attachments/assets/4402d510-a529-4135-b7b2-0fec145dc0cb" width="45%"/> <img src="https://github.com/user-attachments/assets/c3aa06ec-6e9b-4468-bd60-18f1b68af931" width="45%"/>
 </p>
 </details>
