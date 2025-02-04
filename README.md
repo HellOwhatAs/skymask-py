@@ -1,7 +1,13 @@
 # skymask-py
 
 <p align="center">
-    <img src="./assets/Figure_0.svg" width="60%"/>
+    <img src="https://github.com/user-attachments/assets/74c77624-0aca-444f-b1c0-8dad03d7821c" width="40%"/>
+    <img src="https://github.com/user-attachments/assets/c3aa06ec-6e9b-4468-bd60-18f1b68af931" width="40%"/>
+</p>
+<p align="center">
+    <a href="https://crates.io/crates/skymask-rs"><img src="https://img.shields.io/crates/v/skymask-rs" alt="crates.io"></a>
+    <a href="https://docs.rs/skymask-rs/"><img src="https://docs.rs/skymask-rs/badge.svg" alt="docs"></a>
+    <a href="https://github.com/HellOwhatAs/skymask-py/"><img src="https://img.shields.io/github/repo-size/HellOwhatAs/skymask-py" alt="repo"></a>
 </p>
 
 Compute piecewise analytical solutions of skymask for given polyhedra.  
