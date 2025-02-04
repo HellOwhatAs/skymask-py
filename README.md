@@ -21,10 +21,10 @@ The benchmark code is available at [benchmark.py](https://github.com/HellOwhatAs
 
 |Method|Fps|Time Complexity|
 |-|-|-|
-|Parallel sampling: `World.par_samples`|1648.87|$O((k \cdot n \log n + m) \cdot \log r)$|
-|Sequential sampling: `SkymaskMap.samples`|176.05|$O((k \cdot n \log n + m) \cdot \log r)$|
-|[Naive approach](https://github.com/HellOwhatAs/Skymask/blob/main/skymask.py) with Cupy|63.40|$O(m \cdot n)$|
-|[Naive approach](https://github.com/HellOwhatAs/Skymask/blob/main/skymask.py) with Numpy|5.44|$O(m \cdot n)$|
+|Parallel sampling: `World.par_samples`|1743.54|$O((k \cdot n \log n + m) \cdot \log r)$|
+|Sequential sampling: `SkymaskMap.samples`|187.77|$O((k \cdot n \log n + m) \cdot \log r)$|
+|[Naive approach](https://github.com/HellOwhatAs/Skymask/blob/main/skymask.py) with Cupy|84.98|$O(m \cdot n)$|
+|[Naive approach](https://github.com/HellOwhatAs/Skymask/blob/main/skymask.py) with Numpy|4.91|$O(m \cdot n)$|
 
 > Where $n$ represents the number of line segments, and $k$ denotes the average number of segments each line overlaps with in the analytical result.
 > $r$ denotes the number of segments in the analytical result, and $m$ refers to the number of discrete sample points taken from the skymask.  
