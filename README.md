@@ -89,6 +89,6 @@ pi/2-atan(-0.6666666666666666*cos(t) + -0.0*sin(t)) if t in [2.5535900500422257,
 ```
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/4402d510-a529-4135-b7b2-0fec145dc0cb" width="45%"/> <img src="https://github.com/user-attachments/assets/c3aa06ec-6e9b-4468-bd60-18f1b68af931" width="45%"/>
+<img src="https://github.com/user-attachments/assets/4402d510-a529-4135-b7b2-0fec145dc0cb" width="45%"/> <img src="https://github.com/user-attachments/assets/8265abed-2fe6-4af9-91e3-0cc6e3b4957b" width="45%"/>
 </p>
 </details>
